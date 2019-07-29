@@ -8,6 +8,9 @@ param(
 
 $data = Get-Content $xlPath 
 
+"Here is the data:"
+$data
+
 $data | ForEach-Object { <# do excel stuff #> } 
 
 # $data.Save()
