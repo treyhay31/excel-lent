@@ -51,7 +51,7 @@ PS> .\transpose-excel-sheet.ps1 $sheetNumber $prefixLength $column $file
 1. Run the powershell script `transpose-csv.ps1`
     - Provide the prefix number of characters (above example would be: `3`)
     - Provide the path to the `.csv` file that was exported
-
+1. The transposed data will be output to `filename-transposed.csv`
 ```{powershell}
 PS> .\transpose-csv.ps1 3 C:\path\to\file.csv
 ```
