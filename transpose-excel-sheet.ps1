@@ -8,6 +8,6 @@ param(
 
 $data = Get-Content $xlPath 
 
-$data | ForEach-Object { <# do excel stuff #> } | 
+$data | ForEach-Object { <# do excel stuff #> } 
 
 # $data.Save()
